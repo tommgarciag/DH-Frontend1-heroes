@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+header p {
+    background: #1CD1B0;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    
+}
+
+header  {    
+    position: sticky;
+    top: 0px;
+    z-index: 10;     
+}
+
+header h1 {
+    background: #00669F;
+    font-size: 40px;
+    padding: 30px;
+    box-shadow: 0px 5px 6px rgba(134, 134, 134, 0.8);   
+}
+
+main {     
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    height: 800px;    
+}
+
+
+.card {    
+    background: #F3F3F3;
+    width: 300px;
+    height: 530px;    
+    border-radius: 15px 15px 0px 0px;    
+    position: relative;
+}
+
+.card .card-image {
+    position: relative;
+}
+
+
+.card .image-like {    
+    position: absolute;
+    z-index: 1;  
+    top: 15px;
+    left: 15px;
+    
+}
+
+.card .image-rounded {
+    border-radius: 50%;
+    position: relative;
+    margin-top: -70px;
+    left: 90px; 
+    box-shadow: 0px 3px 4px rgba(134, 134, 134, 0.8); 
+}
+
+
+.card .card-body {
+    text-align: center;
+
+}
+
+
+.card .card-body h2 {
+    text-transform: uppercase;
+    padding: 15px 20px;
+    font-weight: 400;
+    
+}
+
+.card .card-body p {    
+    padding: 0px 15px;
+    font-weight: 400;
+    text-align: left; 
+    line-height: 19px;
+    margin-bottom: 40px;
+}
+
+.card .card-body a {    
+    background-color: #00669F;
+    color: #F3F3F3;
+    padding: 15px 37px;
+    font-weight: 400;   
+    font-size: 15px; 
+    text-decoration: none;   
+    
+}
+
+footer p {
+    background-color: #00669F;
+    color: #F3F3F3;
+    padding: 20px;
+}
+
+
+
